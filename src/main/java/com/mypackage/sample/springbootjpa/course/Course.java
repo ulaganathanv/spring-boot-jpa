@@ -14,6 +14,7 @@ public class Course {
 	private String name;
 	private String description;
 	
+	// Many to One => Multiple Courses for One Topic
 	@ManyToOne
 	private Topic topic;
 	

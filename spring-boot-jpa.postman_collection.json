@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "e0f5f20a-ba6a-4fe6-8d82-0f46abb4d776",
+		"name": "spring-boot-jpa",
+		"description": "Spring Boot with JPA Implementation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "spring-boot-jpa-topic-get-operation",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":\"java\",\n\t\"name\":\"Core Java\",\n\t\"description\":\"Core Java Description\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/topics/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-boot-jpa-topic-post-operation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":\"java\",\n\t\"name\":\"Core Java\",\n\t\"description\":\"Core Java Description\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/topics/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-boot-jpa-topic-put-operation",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":\"java\",\n\t\"name\":\"Core Java\",\n\t\"description\":\"Core Java Description - Updated\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/topics/java",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-boot-jpa-topic-delete-operation",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/topics/java",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-boot-jpa-course-get-operation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/topics/java/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-boot-jpa-course-post-operation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":\"java-streams\",\n\t\"name\":\"Java Streams\",\n\t\"description\":\"Java Streams Description\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/topics/java/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-boot-jpa-course-put-operation",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\":\"java-streams\",\n\t\"name\":\"Java Streams\",\n\t\"description\":\"Java Streams Description Updated\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/topics/java/courses/java-streams",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "spring-boot-jpa-course-delete-operation",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/topics/java/courses/java-streams",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

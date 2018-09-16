@@ -1,6 +1,6 @@
 # Spring Boot Application on Cloud
 
-* This project is an example for Spring Boot on Cloud. It includes the steps to get the latest java and install the same into the EC2 instance. 
+This project is an example for Spring Boot on Cloud. It includes the steps to get the latest java and install the same into the EC2 instance. 
 
 ## Instance and Software Setup
 ### Download Latest Java Archive

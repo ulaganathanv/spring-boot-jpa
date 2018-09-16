@@ -1,8 +1,8 @@
 # Spring Boot Application on Cloud
 
-### This project is an example for Spring Boot on Cloud. It includes the steps to get the latest java and install the same into the EC2 instance. 
+* This project is an example for Spring Boot on Cloud. It includes the steps to get the latest java and install the same into the EC2 instance. 
 
-# Instance and Software Setup
+# _Instance and Software Setup
 ## Download Latest Java Archive
 * $ login to ec2 instance using putty.
 * $ sudo su
@@ -29,9 +29,9 @@
 * $ export JRE_HOME=/opt/jdk1.8.0_181/jre
 * $ export PATH=$PATH:/opt/jdk1.8.0_181/bin:/opt/jdk1.8.0_181/jre/bin
 
-# Application Setup
+# _Application Setup
 ## Move the application from localhost to EC2 Instance
-* $ Use WinSCP to move the latest jar file to EC2 instance
+* Use WinSCP to move the latest jar file to EC2 instance
 
 ## Start the application
 * $ java -jar spring-boot-jpa-0.0.1-SNAPSHOT.jar
